@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,700&display=swap');
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+  
+  
+.header {
+    overflow: hidden;
+    padding: 0px 0px;
+    background-color: #1d2026;
+    border-bottom: 1px solid darkolivegreen;
+}
+  
+.header a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+  
+.right {
+    float: right;
+}
+  
+.header a.logo {
+    font-weight: bold;
+    font-size: 25px; 
+}
+  
+.header a:hover {
+    color: green;
+}
+nav img {
+    width: 200px;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #1d2026;
+  border-radius: 8px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 80px;
+  display: block;
+  border-radius: 4px;
+  background: #f1f1f1;
+  
+}
+.word {
+  color: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #1d2026;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #1d2026;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  display: inline-block;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  border: 3px;
+  padding: 5px 14px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: Poppins, sans-serif;
+  margin: 3px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+

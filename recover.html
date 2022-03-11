@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coin recovery</title>
+    <link rel="stylesheet" href="recover.css">
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <a href="index.html" target="_top"><img src="images/COIN REC LOGO1.1.png"></a>
+            <div class="right">
+                <a href="index.html">Home</a>
+                <a href="">About</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <form action="recover.php" method="post">
+        <div class="container">
+          <h1 class="word">Recover</h1>
+          <p class="word">PLEASE FILL IN THE FORM TO RECOVER YOUR COINS.</p>
+          <label for="email"><b class="word">EMAIL</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b class="word">PASSWORD</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b class="word">REPEAT PASSWORD</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          
+          <button type="submit" class="registerbtn">RECOVER</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+  
+  
+.header {
+    overflow: hidden;
+    padding: 0px 0px;
+    background-color: #1d2026;
+    border-bottom: 1px solid darkolivegreen;
+}
+  
+.header a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+  
+.right {
+    float: right;
+}
+  
+.header a.logo {
+    font-weight: bold;
+    font-size: 25px; 
+}
+  
+.header a:hover {
+    color: green;
+}
+  
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: inline;
+      text-align: left;
+    }
+    .right {
+      display: none;
+    }
+    body {
+      width: 100px;
+      display: inline;
+    }
+}
+  
+nav img {
+    width: 200px;
+}
+  
+.banner {
+    background: #1d2026 no-repeat;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 0px;
+  }
+.container {
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+h1 {
+    margin: 10px;
+}
+.container h1{
+    font-size: 60px;
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    
+}
+
+.btn {
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border: 3px;
+    padding: 20px 34px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Poppins, sans-serif;
+    margin: 15px;
+    transform: translate(3%, 250%);
+}
+.btn:hover {
+    background-color: darkkhaki;
+    transition: 1s;
+    border: 1px soid blue;
+}
